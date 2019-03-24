@@ -18,7 +18,7 @@
 
 위의 그림에 이어 아래 그림은 제가 만든 프로젝트 모습입니다.
 
-![](../../.gitbook/assets/img01.png)
+![](../../.gitbook/assets/img01%20%281%29.png)
 
 지금 위 프로젝트를 컴파일하고 실행하면 결과 화면과 다를 바 없이 하얀 화면만 나옵니다. 해당 하얀 화면은 아이폰의 모든 앱이 하나씩 가지고 있는 UIWindow 객체의 모습입니다. 우리는 이제 이 UIWindow 객체에 우리만의 OpenGL용 View를 만들어서 하위 뷰로 추가해야합니다.
 
@@ -30,7 +30,7 @@
 
 이제 OpenGL을 그릴 수 있는 UIView객체를 만들어 보겠습니다. 커스텀 UIView이니 UIView를 상속해야 합니다. 아래 그림처럼 OGLView 를 만들어 주세요.
 
-![](../../.gitbook/assets/img03.png)
+![](../../.gitbook/assets/img03%20%281%29.png)
 
 ![](../../.gitbook/assets/img04.png)
 

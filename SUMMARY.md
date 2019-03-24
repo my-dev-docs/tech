@@ -12,6 +12,13 @@
 * [Codable](swift/codable/README.md)
   * [커스텀 타입 인코딩 및 디코딩](swift/codable/encoding-decoding-custom-type.md)
 
+## iOS
+
+## ANDROID
+
+* [View](android/view/README.md)
+  * [커스텀뷰의 크기\(기하 혹은 좌표계\) 정하기](android/view/measure-android-custom-view.md)
+
 ## OpenGL
 
 * [OpenGL ES Tutorial for iOS](opengl/opengl-es-tutorial-for-ios/README.md)
