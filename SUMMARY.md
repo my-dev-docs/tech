@@ -19,5 +19,7 @@
   * [2장. 튜토리얼 소개](opengl/opengl-es-tutorial-for-ios/chapter-02.md)
   * [3장. OpenGL\|ES 개발 환경 만들기](opengl/opengl-es-tutorial-for-ios/chapter-03.md)
   * [4장. 뷰 배경색상 변경하기](opengl/opengl-es-tutorial-for-ios/chapter-04.md)
+  * [5장. 투영에 대해서 1/2](opengl/opengl-es-tutorial-for-ios/chapter-05.md)
+  * [6장. 투영에 대해서 2/2](opengl/opengl-es-tutorial-for-ios/chapter-06.md)
 * [Untitled](opengl/untitled.md)
 
