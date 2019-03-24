@@ -8,4 +8,5 @@
   * [What' New](blog/swift/what-new/README.md)
     * [Swift 5.0](blog/swift/what-new/swift-5.0/README.md)
       * [Result 타입](blog/swift/what-new/swift-5.0/result.md)
+      * [Raw 문자열](blog/swift/what-new/swift-5.0/raw.md)
 

@@ -76,3 +76,6 @@ let result = Result { try String(contentsOfFile: someFile) }
 
 따라서 `Result<Int, NetwordError>`를 사용하는 대신 `Result<Int, Error>`를 사용할 수 있습니다. 이렇게 하면 타입이 지정된 throw의 타입 안전성을 잃게 되지만 그대신 다양한 Error enum을 사용할 수 있습니다. 위 제안을 따르냐 마느냐는 원하는 코딩 스타일에 따라 유연하게 선택하면 됩니다.
 
+이 글은 [https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0](
+https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0) 을 편역한 것입니다.
+
