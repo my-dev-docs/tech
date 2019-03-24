@@ -17,5 +17,7 @@
 * [OpenGL ES Tutorial for iOS](opengl/opengl-es-tutorial-for-ios/README.md)
   * [1장. 저자 소개](opengl/opengl-es-tutorial-for-ios/chapter-01.md)
   * [2장. 튜토리얼 소개](opengl/opengl-es-tutorial-for-ios/chapter-02.md)
-  * [3장. OpenGL\|ES 개발 환경 만들기](opengl/opengl-es-tutorial-for-ios/3-.-opengl-or-es.md)
+  * [3장. OpenGL\|ES 개발 환경 만들기](opengl/opengl-es-tutorial-for-ios/chapter-03.md)
+  * [4장. 뷰 배경색상 변경하기](opengl/opengl-es-tutorial-for-ios/chapter-04.md)
+* [Untitled](opengl/untitled.md)
 
