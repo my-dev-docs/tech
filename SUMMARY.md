@@ -21,5 +21,6 @@
   * [4장. 뷰 배경색상 변경하기](opengl/opengl-es-tutorial-for-ios/chapter-04.md)
   * [5장. 투영에 대해서 1/2](opengl/opengl-es-tutorial-for-ios/chapter-05.md)
   * [6장. 투영에 대해서 2/2](opengl/opengl-es-tutorial-for-ios/chapter-06.md)
+  * [7장. 선분 및 삼각형 그리기](opengl/opengl-es-tutorial-for-ios/7-..md)
 * [Untitled](opengl/untitled.md)
 
