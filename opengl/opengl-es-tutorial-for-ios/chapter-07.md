@@ -98,7 +98,7 @@ GLfloat pointsForGL_LINE_LOOP[] = {
 
 이제 GL\_LINE\_STRIP을 이용해 역Z자를 그려보겠습니다. 아래와 같이 정점을 설정합니다.
 
-```text
+```objectivec
 GLfloat pointsForGL_LINE_STRIP[] = {  
     0.2, 0.2, 0.0,  //v1  
     0.8, 0.2, 0.0,  //v2  
@@ -109,7 +109,7 @@ GLfloat pointsForGL_LINE_STRIP[] = {
 
 그리고 renderView를 아래와 같이 수정합니다.
 
-```text
+```objectivec
 -(void)renderView  
 {  
     //: 배경을 검은색으로 지운다  
@@ -140,7 +140,7 @@ GLfloat pointsForGL_LINE_STRIP[] = {
 
 GL\_LINE\_LOOP와 GL\_LINE\_STRIP의 차이점이 궁금하신 분은 renderView를 아래와 같이 설정하고 실행해 보세요.
 
-```text
+```objectivec
 -(void)renderView  
 {  
     //: 배경을 검은색으로 지운다  
@@ -183,7 +183,7 @@ GL\_TRIANGLE\_FAN은 GL\_TRIANGLE\_STRIP과 비슷하지만 이전 삼각형의 
 
 
 
-```text
+```objectivec
 GLfloat pointsForGL_TRIANGLES[] = {  
     0.2, 0.2, 0.0,  //v1  
     0.8, 0.2, 0.0,  //v2  
@@ -197,7 +197,7 @@ GLfloat pointsForGL_TRIANGLES[] = {
 
 그리고 renderView를 아래와 같이 수정합니다.
 
-```text
+```objectivec
 -(void)renderView  
 {  
     //: 배경을 검은색으로 지운다  
@@ -228,7 +228,7 @@ GLfloat pointsForGL_TRIANGLES[] = {
 
 이제 GL\_TRIANGLE\_STRIP으로 두개의 삼각형을 그려보겠습니다. 우선 정점을 설정합니다.
 
-```text
+```objectivec
 GLfloat pointsForGL_TRIANGLE_STRIP[] = {  
     0.2, 0.8, 0.0,  //v1  
     0.2, 0.2, 0.0,  //v2  
@@ -239,7 +239,7 @@ GLfloat pointsForGL_TRIANGLE_STRIP[] = {
 
 그리고 renderView를 아래와 같이 설정합니다.
 
-```text
+```objectivec
 -(void)renderView  
 {  
     //: 배경을 검은색으로 지운다  
@@ -270,7 +270,7 @@ GLfloat pointsForGL_TRIANGLE_STRIP[] = {
 
 이제 GL\_TRIANGLE\_FAN으로 여러 삼각형을 그려보겠습니다. 아래와 같이 정점을 설정합니다.
 
-```text
+```objectivec
 GLfloat pointsForGL_TRIANGLE_FAN[] = {  
     0.2, 0.8, 0.0,  //v1  
     0.2, 0.2, 0.0,  //v2  
@@ -282,7 +282,7 @@ GLfloat pointsForGL_TRIANGLE_FAN[] = {
 
 그리고 renderView를 아래와 같이 수정합니다.
 
-```text
+```objectivec
 -(void)renderView  
 {  
     //: 배경을 검은색으로 지운다  

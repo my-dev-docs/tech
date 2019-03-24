@@ -21,7 +21,7 @@
 
 아래의 화면은 만들어 볼 프로그램의 실행 결과 화면과 예제 코드입니다. 먼저 실행해 보실 분은 [소스코드](https://skyfe79.gitbooks.io/ios-opengles-tutorial/content/ch4/Tutorial04.zip)를 받아 컴파일해 보시길 바랍니다.
 
-![](../../.gitbook/assets/tut01.png)
+![](../../.gitbook/assets/tut01%20%284%29.png)
 
 #### 1. OGLView 수정하기 <a id="1-oglview-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0"></a>
 
@@ -78,7 +78,7 @@ OGLView를 상속받는 DrawPointView 클래스를 새로 만들어 줍니다. D
 
 x축의 범위값은 \(left, right\)이고 y축의 범위값은 \(bottom, top\) 이고 z축의 범위값은 \(near, far\)입니다. 따라서 위 코드에서 glOrthof 함수 인자는 glOrthof\(left, right, bottom, top, near, far\) 입니다.그리고 위처럼 직교투영절두체의 범위를 설정하면 아이폰 화면의 좌-하단이 원점이 되도록 설정한 것입니다.
 
-![](../../.gitbook/assets/tut02.png)
+![](../../.gitbook/assets/tut02%20%282%29.png)
 
 #### 3. 정점 정의하기 <a id="3-%EC%A0%95%EC%A0%90-%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0"></a>
 
@@ -134,7 +134,7 @@ glOrthof(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);
 
 이렇게 하면 원점이 화면의 정중앙이 되기 때문에 아래와 같이 출력됩니다.
 
-![](../../.gitbook/assets/tut03%20%281%29.png)
+![](../../.gitbook/assets/tut03%20%285%29.png)
 
 정점의 좌표값을 수정해 보며 여러번 테스트 해 보세요. 그럼 여기서 4편 튜토리얼을 마치고 이번 튜토리얼에서 다루지 못한 내용은 다음 5편 튜토리얼에서 다뤄보겠습니다.
 
