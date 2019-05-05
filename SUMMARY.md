@@ -2,20 +2,11 @@
 
 * [철이의 컴노리에 오신 것을 환영합니다.](README.md)
 
-## Swift
-
-* [What' New](swift/what-new/README.md)
-  * [Swift 5.0](swift/what-new/swift-5.0/README.md)
-    * [Result 타입](swift/what-new/swift-5.0/result-type.md)
-    * [Raw 문자열](swift/what-new/swift-5.0/raw-string.md)
-    * [커스텀 문자열 보간](swift/what-new/swift-5.0/undefined.md)
-* [Codable](swift/codable/README.md)
-  * [커스텀 타입 인코딩 및 디코딩](swift/codable/encoding-decoding-custom-type.md)
-
-## iOS
+## KOTLIN
 
 ## ANDROID
 
+* [Core Topics](android/core-topics.md)
 * [View](android/view/README.md)
   * [커스텀뷰의 크기 정하기](android/view/measure-android-custom-view.md)
 * [JNI 튜토리얼](android/jni-tutorial/README.md)
@@ -47,6 +38,18 @@
   * [26장. 자바 클래스 인스턴스 메서드 찾기](android/jni-tutorial/chapter-26.md)
   * [27장. 자바 클래스의 인스턴스 필드 찾기](android/jni-tutorial/chapter-27.md)
   * [28장. 네이티브 쓰레드 실행하기](android/jni-tutorial/chapter-28.md)
+
+## Swift
+
+* [What' New](swift/what-new/README.md)
+  * [Swift 5.0](swift/what-new/swift-5.0/README.md)
+    * [Result 타입](swift/what-new/swift-5.0/result-type.md)
+    * [Raw 문자열](swift/what-new/swift-5.0/raw-string.md)
+    * [커스텀 문자열 보간](swift/what-new/swift-5.0/undefined.md)
+* [Codable](swift/codable/README.md)
+  * [커스텀 타입 인코딩 및 디코딩](swift/codable/encoding-decoding-custom-type.md)
+
+## iOS
 
 ## OpenGL
 
