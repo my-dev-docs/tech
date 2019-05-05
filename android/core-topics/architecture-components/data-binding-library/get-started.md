@@ -12,7 +12,7 @@ Android Studio에서 데이터 바인딩 코드 지원을 비롯하여 개발 �
 
 데이터 바인딩을 사용하도록 애플리케이션을 구성하려면 다음 예와 같이 dataBinding 엘리먼트를 app 모듈의 build.gradle 파일에 추가합니다.
 
-```text
+```groovy
 android {
     ...
     dataBinding {
@@ -36,7 +36,7 @@ Android Studio는 데이터 바인딩 코드를 위한 다양한 편집 기능�
 
 레이아웃 편집기의 미리보기 화면에는 데이터 바인딩 표현식에 대한 기본값이 표시됩니다\(제공된 경우\). 예를 들어, 미리보기 화면은 다음 예제에 선언 된 TextView 위젯에 my\_default 값을 표시합니다.
 
-```text
+```markup
 <TextView android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@{user.firstName, default=my_default}"/>
@@ -52,13 +52,13 @@ Android Gradle 플러그인 버전 3.1.0-alpha06에는 바인딩 클래스를 �
 
 새로운 데이터 바인딩 컴파일러를 사용하려면 gradle.properties 파일에 다음 옵션을 추가합니다.
 
-```text
+```groovy
 android.databinding.enableV2=true
 ```
 
 다음 매개변수를 추가하여 gradle 명령에서 새 컴파일러를 활성화 할 수도 있습니다.
 
-```text
+```groovy
 -Pandroid.databinding.enableV2=true
 ```
 
