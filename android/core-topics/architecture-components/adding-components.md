@@ -4,7 +4,7 @@
 
 아키텍처 컴포넌트는 Google의 Maven 저장소에서 사용할 수 있습니다. 이를 사용하려면 저장소를 프로젝트에 추가해야 합니다.
 
-프로젝트의 build.gradle 파일\(앱 또는 모듈의 파일 아님\)을 열고 google\(\) 저장소를 다음과 같이 추가합니다.
+프로젝트의 build.gradle 파일\(앱 또는 모듈의 build.gradle파일이 아님\)을 열고 google\(\) 저장소를 다음과 같이 추가합니다.
 
 ```groovy
 allprojects {
