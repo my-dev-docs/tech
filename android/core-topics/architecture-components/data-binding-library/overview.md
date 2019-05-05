@@ -41,7 +41,7 @@ Android Studio에서 데이터 바인딩 코드 지원을 비롯하여 개발 �
             name="viewmodel"
             type="com.myapp.data.ViewModel" />
     </data>
-    <ConstraintLayout... /> <!-- UI layout's root element -->
+    <ConstraintLayout... /> <!-- UI 레이아웃 루트 엘리먼트 -->
 </layout>
 ```
 
