@@ -47,7 +47,7 @@ Android Studio에서 데이터 바인딩 코드 지원을 비롯하여 개발 �
 
 #### [Observable 데이터 오브젝트 사용](https://developer.android.com/topic/libraries/data-binding/observability.html) <a id="toc_3"></a>
 
-데이터 바인딩 라이브러리는 변경 사항에 대한 데이터를 쉽게 관찰 할 수 있는 클래스와 메서드를 제공합니다. 기본 데이터 소스가 변경 될 때 UI 새로 고침에 대해 걱정할 필요가 없습니다. 변수 또는 속성을 관찰할 수 있습니다. 이 라이브러리를 사용하면 오브젝트, 필드 또는 콜렉션을 Observable하게 만들 수 있습니다.
+데이터 바인딩 라이브러리는 데이터의 변경 사항에 대한 데이터를 쉽게 관찰 할 수 있는 클래스와 메서드를 제공합니다. 기본 데이터 소스가 변경 될 때 UI 새로 고침에 대해 걱정할 필요가 없습니다. 변수 또는 속성을 관찰할 수 있습니다. 이 라이브러리를 사용하면 오브젝트, 필드 또는 콜렉션을 Observable하게 만들 수 있습니다.
 
 #### [생성 된 바인딩 클래스](https://developer.android.com/topic/libraries/data-binding/generated-binding.html) <a id="toc_4"></a>
 
