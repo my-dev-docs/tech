@@ -21,14 +21,14 @@ allprojects {
 
 각 Architecture Component에 대한 디펜던시 선언에 대한 지침은 릴리스 정보를 참고 합니다.
 
-* Futures \(found in androidx.concurrent\)
-* Lifecycle components \(including ViewModel\)
-* Navigation \(including SafeArgs\)
-* Paging
-* Room
-* WorkManager
+* [Futures \(found in androidx.concurrent\)](https://developer.android.com/jetpack/androidx/releases/concurrent)
+* [Lifecycle components \(including ViewModel\)](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+* [Navigation \(including SafeArgs\)](https://developer.android.com/jetpack/androidx/releases/navigation)
+* [Paging](https://developer.android.com/jetpack/androidx/releases/paging)
+* [Room](https://developer.android.com/jetpack/androidx/releases/room)
+* [WorkManager](https://developer.android.com/jetpack/androidx/releases/work)
 
-AndroidX 리팩토링 내용과 AndroidX 리팩토링이 이러한 클래스 패키지 및 모듈 ID에 미치는 영향에 대한 자세한 내용은 AndroidX 리팩토링 설명서를 참고 합니다.
+AndroidX 리팩토링 내용과 AndroidX 리팩토링이 이러한 클래스 패키지 및 모듈 ID에 미치는 영향에 대한 자세한 내용은 [AndroidX 리팩토링 설명서](https://developer.android.com/topic/libraries/support-library/refactor)를 참고 합니다.
 
 ### 코틀린 <a id="toc_2"></a>
 
@@ -44,7 +44,7 @@ implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
 implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 ```
 
-Kotlin 확장에 대한 도큐먼트를 포함하여 자세한 정보는 ktx 도큐먼트에서 찾을 수 있습니다.
+[ktx 문서](https://developer.android.com/kotlin/ktx)에서 Kotlin 확장에 대한 문서를 포함하여 자세한 정보를 찾을 수 있습니다.
 
 `참고` Kotlin 으로 작성하는 앱의 경우 annotationProcessor 대신 kapt를 사용해야 합니다. kotlin-kapt 플러그인도 추가해야 합니다.
 
