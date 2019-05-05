@@ -4,7 +4,7 @@ Android Studio에서 데이터 바인딩 코드 지원을 비롯하여 개발 �
 
 데이터 바인딩 라이브러리는 유연성과 광범위한 호환성을 제공합니다. 이 라이브러리는 지원 라이브러리이므로 Android 4.0\(API 레벨 14\) 이상을 실행하는 장치에서 사용할 수 있습니다.
 
-프로젝트에서 최신 Gradle Android 플러그인을 사용하는 것이 좋습니다. 데이터 바인딩은 1.5.0 이상에서 지원됩니다. 자세한 내용은 [Gradle Android 플러그인을 업데이트하는 방법](https://developer.android.com/studio/releases/gradle-plugin.html#updating-plugin)을 참고 합니다.
+프로젝트에서 최신 Gradle용 Android 플러그인을 사용하는 것이 좋습니다. 데이터 바인딩은 1.5.0 이상에서 지원됩니다. 자세한 내용은 [Gradle용 Android 플러그인을 업데이트하는 방법](https://developer.android.com/studio/releases/gradle-plugin.html#updating-plugin)을 참고 합니다.
 
 ### 빌드 환경 <a id="toc_0"></a>
 
