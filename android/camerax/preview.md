@@ -1,8 +1,12 @@
-# 미리보기 구현
+---
+description: 'https://developer.android.com/training/camerax/preview 를 번역한 문서입니다.'
+---
 
-미리보기 유즈케이스는 카메라 입력을 스트리밍하는 SurfaceTexture를 생성합니다. 또한 미리보기를 알맞게 표시하기 위해 뷰를 자르고, 크기를 조정하고 회전을 하기 위한 추가 정도도 제공합니다.
+# 미리보기
 
-카메라가 활성화되면 이미지 미리보기가 SurfaceTexture로 스트리밍됩니다. SurfaceTexture는 TextureView 또는 GLSurfaceView에 연결할 수 있습니다.
+미리보기 유즈케이스는 카메라 입력을 스트리밍하는 SurfaceTexture를 생성합니다. 또한 미리보기를 알맞게 표시하기 위해 뷰를 자르고, 크기를 조정하고 회전을 하기 위한 추가 정보도 제공합니다.
+
+카메라가 활성화되면 미리보기 이미지가 SurfaceTexture로 스트리밍됩니다. SurfaceTexture는 TextureView 또는 GLSurfaceView에 연결할 수 있습니다.
 
 ## 구현하기 <a id="toc_1"></a>
 

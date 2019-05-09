@@ -1,5 +1,5 @@
 ---
-description: 'https://developer.android.com/training/camerax/take-photo를 번역한 문서입니다.'
+description: 'https://developer.android.com/training/camerax/take-photo 를 번역한 문서입니다.'
 ---
 
 # 이미지 캡처

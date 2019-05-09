@@ -9,7 +9,7 @@
 * [CameraX](android/camerax/README.md)
   * [CameraX 아키텍처](android/camerax/camerax-architecture.md)
   * [구성](android/camerax/configuration.md)
-  * [미리보기 구현](android/camerax/preview.md)
+  * [미리보기](android/camerax/preview.md)
   * [이미지 분석](android/camerax/analyze-image.md)
   * [이미지 캡처](android/camerax/take-photo.md)
   * [공급 업체 확장 기능](android/camerax/vendor-extensions.md)

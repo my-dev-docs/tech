@@ -1,5 +1,5 @@
 ---
-description: 'https://developer.android.com/training/camerax/vendor-extensions를 번역한 문서입니다.'
+description: 'https://developer.android.com/training/camerax/vendor-extensions 를 번역한 문서입니다.'
 ---
 
 # 공급 업체 확장 기능
