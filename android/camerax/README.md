@@ -66,7 +66,6 @@ CameraX에 대한 자세한 내용은 아래의 추가 자료를 참고 합니�
 ### 코드랩 <a id="toc_7"></a>
 
 * [CameraX 시작하기](https://codelabs.developers.google.com/codelabs/camerax-getting-started)
-* [앱에 CameraView 프래그먼트 추가하기](https://codelabs.developers.google.com/codelabs/cameraview-fragment)
 
 ### 코드 예제 <a id="toc_8"></a>
 
