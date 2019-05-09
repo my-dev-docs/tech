@@ -13,6 +13,7 @@
     * [소개](android/architecture-components/data-binding-library/overview.md)
     * [시작하기](android/architecture-components/data-binding-library/get-started.md)
     * [레이아웃 및 바인딩 표현식](android/architecture-components/data-binding-library/layout-binding-expression.md)
+  * [라이프 사이클 처리](android/architecture-components/handling-lifecycle.md)
 * [CameraX](android/camerax/README.md)
   * [CameraX 아키텍처](android/camerax/camerax-architecture.md)
   * [구성](android/camerax/configuration.md)
