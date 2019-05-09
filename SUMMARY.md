@@ -6,13 +6,6 @@
 
 ## ANDROID
 
-* [CameraX](android/camerax/README.md)
-  * [CameraX 아키텍처](android/camerax/camerax-architecture.md)
-  * [구성](android/camerax/configuration.md)
-  * [미리보기](android/camerax/preview.md)
-  * [이미지 분석](android/camerax/analyze-image.md)
-  * [이미지 캡처](android/camerax/take-photo.md)
-  * [공급 업체 확장 기능](android/camerax/vendor-extensions.md)
 * [Architecture Components](android/architecture-components/README.md)
   * [소개](android/architecture-components/overview.md)
   * [프로젝트에 추가하기](android/architecture-components/adding-components.md)
@@ -20,6 +13,13 @@
     * [소개](android/architecture-components/data-binding-library/overview.md)
     * [시작하기](android/architecture-components/data-binding-library/get-started.md)
     * [레이아웃 및 바인딩 표현식](android/architecture-components/data-binding-library/layout-binding-expression.md)
+* [CameraX](android/camerax/README.md)
+  * [CameraX 아키텍처](android/camerax/camerax-architecture.md)
+  * [구성](android/camerax/configuration.md)
+  * [미리보기](android/camerax/preview.md)
+  * [이미지 분석](android/camerax/analyze-image.md)
+  * [이미지 캡처](android/camerax/take-photo.md)
+  * [공급 업체 확장 기능](android/camerax/vendor-extensions.md)
 * [View](android/view/README.md)
   * [커스텀뷰의 크기 정하기](android/view/measure-android-custom-view.md)
 * [JNI 튜토리얼](android/jni-tutorial/README.md)
