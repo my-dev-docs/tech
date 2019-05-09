@@ -8,7 +8,7 @@ description: 'https://developer.android.com/training/camerax 를 번역한 문�
 
 CameraX는 Jetpack 서포트 라이브러리로 카메라 앱을 보다 쉽게 개발할 수 있도록 도와줍니다. Android 5.0\(API레벨 21\)과 호환되는 대부분의 Android 기기에서 작동하는 일관되고 사용하기 쉬운 API를 제공합니다.
 
-CameraX는 camera2의 기능을 활용하지만 라이프 사이클을 식별하는 보다 간단한 유즈케이스 기반 접근 방식을 사용합니다. 또한 디바이스 호환성 문제를 해결하므로 코드에 디바이스 별 코드를 포함할 필요가 없습니다. 이러한 점은 앱에 카메라 기능을 추가할 때 작성해야 하는 코드의 양을 줄여줍니다.
+CameraX는 camera2의 기능을 활용하지만 라이프 사이클을 식별하는 보다 간단한 유즈케이스 기반 접근 방식을 사용합니다. 또한 디바이스 호환성 문제를 해결하므로 디바이스 별 코드를 작성할 필요가 없습니다. 이러한 점은 앱에 카메라 기능을 추가할 때 작성해야 하는 코드의 양을 줄여줍니다.
 
 마지막으로, CameraX를 사용하면 개발자는 단 두 줄의 코드로 디바이스에 설치된 기본 카메라 앱과 동일한 카메라 경험과 기능을 사용할 수 있습니다. [CameraX Extensions](https://developer.android.com/training/camerax/vendor-extensions)는 옵셔널한 애드온으로 Portrait, HDR, Night, Beauty와 같은 효과를 개발하는 앱에 추가할 수 있습니다. 단, [디바이스](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-dev/camera/extensions/ExtensionsSupportedDevices.md)가 해당 기능을 지원을 해야 합니다.
 
@@ -44,7 +44,7 @@ Google은 Android 5.0\(API레벨 21\) 이후 여러 디바이스 및 운영체�
 
 ### 새로운 카메라 경험 <a id="toc_4"></a>
 
-CameraX에는 [확장](https://developer.android.com/training/camerax/vendor-extensions)이라고 하는 애드이 있습니다. 애드온을 사용하면 디바이스와 함께 제공되는 기본 카메라 앱과 동일한 기능을 코드 두 줄로 사용할 수 있습니다.
+CameraX에는 [확장](https://developer.android.com/training/camerax/vendor-extensions)이라고 하는 애드온이 있습니다. 애드온을 사용하면 디바이스와 함께 제공되는 기본 카메라 앱과 동일한 기능을 코드 두 줄로 사용할 수 있습니다.
 
 사용 가능한 첫 번째 기능 세트에는 Portrait, HDR, Night 그리고 Beauty가 있습니다. 이러한 기능을 [지원하는 디바이스](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-dev/camera/extensions/ExtensionsSupportedDevices.md)에서만 사용할 수 있습니다.
 
