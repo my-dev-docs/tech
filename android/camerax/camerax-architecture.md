@@ -132,7 +132,7 @@ override fun onCreate() {
 
 ## 권한 <a id="toc_7"></a>
 
-앱은 CAMERA 권한이 필요합니다. 이미지를 파일에 저장한다면 Android Q 이상을 실행하는 디바이스를 제외하고 WRITE_EXTERNAL_STORATE 권한이 필요합니다. 
+앱은 `CAMERA` 권한이 필요합니다. 이미지를 파일에 저장한다면 Android Q 이상을 실행하는 디바이스를 제외하고 `WRITE_EXTERNAL_STORATE` 권한이 필요합니다. 
 
 앱의 권한 구성에 대한 자세한 내용은 [앱 권한 요청](https://developer.android.com/training/permissions/requesting)을 참고합니다.
 
