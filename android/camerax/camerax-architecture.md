@@ -26,7 +26,7 @@ CameraX는 [Camera2 API](https://developer.android.com/reference/android/hardwar
 
 유즈케이스 구성 오브젝트는 set\(\) 메서드를 사용하여 유즈케이스를 설정하고 build\(\) 메서드를 호출하여 구성을 완료합니다. 각 유즈케이스 오브젝트는 유즈케이스 별 API 세트를 제공합니다. 예를 들어, 이미지 캡처 유즈케이스는 tackPicture\(\) 메서드를 제공합니다.
 
-onResume\(\)과 onPause\(\)에서 시작 및 중지 메서드를 호출하는 대신 CameraX.bindToLifecycle\(\)을 사용하여 카메라와 연관된 라이프 사이크을 지정합니다. Android 아키텍처 컴포넌트인 Lifecycle이 데이터의 시작, 종료 그리고 생성을 관리합니다. Lifecycle 컴포넌트는 CameraX에게 카메라 캡처 세션을 구성할 시점을 알려주고 라이프 사이클 전환에 맞게 카메라 상태를 적절하게 변경합니다.
+onResume\(\)과 onPause\(\)에서 시작 및 중지 메서드를 호출하는 대신 CameraX.bindToLifecycle\(\)을 사용하여 카메라와 연관된 라이프 사이클을 지정합니다. Android 아키텍처 컴포넌트인 Lifecycle이 데이터의 시작, 종료 그리고 생성을 관리합니다. Lifecycle 컴포넌트는 CameraX에게 카메라 캡처 세션을 구성할 시점을 알려주고 라이프 사이클 전환에 맞게 카메라 상태를 적절하게 변경합니다.
 
 각 유즈케이스의 구현 과정은 [미리보기 구현](https://developer.android.com/training/camerax/preview), [이미지 분석](https://developer.android.com/training/camerax/analyze) 그리고 [사진 촬영](https://developer.android.com/training/camerax/take-photo)을 참고합니다.
 
