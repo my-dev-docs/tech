@@ -8,7 +8,7 @@ description: 'https://developer.android.com/training/camerax 를 번역한 문�
 
 CameraX는 Jetpack 서포트 라이브러리로 카메라 앱을 보다 쉽게 개발할 수 있도록 도와줍니다. Android 5.0\(API레벨 21\)과 호환되는 대부분의 Android 기기에서 작동하는 일관되고 사용하기 쉬운 API를 제공합니다.
 
-CameraX는 camera2의 기능을 활용하지만 라이프 사이클을 식별하는 보다 간단한 유즈케이스 기반 접근 방식을 사용합니다. 또한 장치 호환성 문제를 해결하므로 코드에 장치 별 코드를 포함할 필요가 없습니다. 이러한 점은 앱에 카메라 기능을 추가할 대 작성해야 하는 코드의 양을 줄여줍니다.
+CameraX는 camera2의 기능을 활용하지만 라이프 사이클을 식별하는 보다 간단한 유즈케이스 기반 접근 방식을 사용합니다. 또한 디바이스 호환성 문제를 해결하므로 코드에 디바이스 별 코드를 포함할 필요가 없습니다. 이러한 점은 앱에 카메라 기능을 추가할 때 작성해야 하는 코드의 양을 줄여줍니다.
 
 마지막으로, CameraX를 사용하면 개발자는 단 두 줄의 코드로 디바이스에 설치된 기본 카메라 앱과 동일한 카메라 경험과 기능을 사용할 수 있습니다. [CameraX Extensions](https://developer.android.com/training/camerax/vendor-extensions)는 옵셔널한 애드온으로 Portrait, HDR, Night, Beauty와 같은 효과를 개발하는 앱에 추가할 수 있습니다. 단, [디바이스](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-dev/camera/extensions/ExtensionsSupportedDevices.md)가 해당 기능을 지원을 해야 합니다.
 
@@ -22,7 +22,7 @@ CameraX는 다음과 같은 방법으로 개발자 경험을 향상시킵니다.
 
 ### 쉬운 사용성 <a id="toc_2"></a>
 
-CameraX는 장치 별 다른 점을 관리하는데 시간을 낭비하지 않습니다. 대신 유즈케이스를 도입하여 필요한 작업에만 집중합니다. 몇 가지 기본적인 유즈케이스가 있습니다.
+CameraX는 디바이스마다 다른 점을 관리하는데 시간을 낭비하지 않습니다. 대신 유즈케이스를 도입하여 필요한 작업에만 집중합니다. 몇 가지 기본적인 유즈케이스가 있습니다.
 
 * [미리보기](https://developer.android.com/training/camerax/preview): 디스플레이에서 이미지 얻기
 * [이미지 분석:](https://developer.android.com/training/camerax/analyze) MLKit과 같은 알고리즘에 데이터를 전달하기 위한 버퍼에 대한 완전한 접근.
