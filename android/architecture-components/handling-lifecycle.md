@@ -267,17 +267,17 @@ onSaveInstanceState\(\)를 통해 Fragment 또는 AppCompatActivity의 상태를
 
 라이프 사이클 지원 컴포넌트를 사용하여 라이프 사이클을 처리하는 방법에 대한 자세한 내용은 다음 추가 자료를 참고 합니다.
 
-#### 예제
+### 예제
 
 * [Android Architecture Components Basic Sample](https://github.com/googlesamples/android-architecture-components/tree/master/BasicSample)
 * [Sunflower](https://github.com/googlesamples/android-architecture-components)
   * 안드로이드 아키텍처 컴포넌트 모범 사례를 보여주는 데모 앱
 
-#### 코드랩
+### 코드랩
 
 * [Android Lifecycle-aware components](https://codelabs.developers.google.com/codelabs/android-lifecycles/index.html?index=..%2F..%2Findex#0)
 
-#### 블로그
+### 블로그
 
 * [Introducing Android Sunflower](https://medium.com/androiddevelopers/introducing-android-sunflower-e421b43fe0c2)
 
