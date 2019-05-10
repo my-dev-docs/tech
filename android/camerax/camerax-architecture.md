@@ -57,7 +57,7 @@ CameraX는 라이프 사이클을 관찰하여 카메라는 켜는 시점, 캡�
 
 [유즈케이스 결합](https://developer.android.com/training/camerax/architecture#combine-use-cases)에서 설명한 것처럼 결합된 유즈케이스를 단일 라이프 사이클에 바인딩 할 수 있습니다. 결합할 수 없는 유즈케이스를 앱에서 지원해야 하는 경우 다음 중 하나를 실행할 수 있습니다.
 
-* 호환 가능한 유즈케이스를 여러 [프래그먼트](https://developer.android.com/reference/androidx/fragment/app/Fragment.html)로 나누어 결합한 다음 프래그먼 간에 전환하기.
+* 호환 가능한 유즈케이스를 여러 [프래그먼트](https://developer.android.com/reference/androidx/fragment/app/Fragment.html)로 나누어 결합한 다음 프래그먼트 간에 전환하기.
 * 커스텀 라이프 사이클 컴포넌트를 생성하고 이를 사용하여 카메라 라이프 사이클을 개발자가 직접 제어하기.
 
 카메라 유즈케이스의 라이프 사이클 소유자와 뷰를 분리한 경우\(예를 들어, 커스텀 라이프 사이클 사용 또는 [리테인 프레그먼트](https://developer.android.com/reference/android/app/Fragment.html#setRetainInstance%28boolean%29)를 사용하는 경우\), 모든 유즈케이스가 CameraX.unbindAll\(\)을 사용하여 바인딩을 해제하거나 각각의 유즈케이스를 개별적으로 바인딩 해제해야 합니다. 또는 표준 라이프 사이클을 사용하여 onCreate 메서드에서 유즈케이스를 바인딩하면 CameraX가 캡처 세션을 열고 닫는 것을 관리 할 수 있고 유즈케이스의 바인딩을 해제 할 수 있습니다.
