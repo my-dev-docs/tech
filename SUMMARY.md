@@ -7,10 +7,8 @@
 ## ANDROID
 
 * [Architecture Components](android/architecture-components/README.md)
-  * [소개](android/architecture-components/overview.md)
   * [프로젝트에 추가하기](android/architecture-components/adding-components.md)
   * [데이터 바인딩 라이브러리](android/architecture-components/data-binding-library/README.md)
-    * [소개](android/architecture-components/data-binding-library/overview.md)
     * [시작하기](android/architecture-components/data-binding-library/get-started.md)
     * [레이아웃 및 바인딩 표현식](android/architecture-components/data-binding-library/layout-binding-expression.md)
   * [라이프 사이클 처리](android/architecture-components/handling-lifecycle.md)
