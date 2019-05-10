@@ -26,7 +26,7 @@ UI 컨트롤러 로직에서 뷰 데이터 소유권을 분리하는 것이 더 
 
 아키텍처 컴포넌트는 UI 컨트롤러가 사용할 수 있는 ViewModel 클래스를 제공하여 UI를 위한 데이터 준비를 돕도록 합니다. ViewModel 오브젝트는 구성 변경 중에도 자동으로 유지되므로 저장된 데이터를 다음 액티비티 또는 프래그먼트 인스턴스에서 즉시 사용할 수 있습니다. 예를 들어, 앱에 사용자 목록을 표시해야 하는 경우 아래 예제 코드와 같이 사용자 목록을 가져 와서 액티비티 또는 프래그먼트 대신 ViewModel이 데이터를 유지하도록 책임을 할당할 수 있습니다.
 
-```text
+```kotlin
 class MyViewModel : ViewModel() {
     private val users: MutableLiveData<List<User>> by lazy {
         MutableLiveData().also {
@@ -46,7 +46,7 @@ class MyViewModel : ViewModel() {
 
 그러면 다음과 같이 액티비티에서 목록에 접근 할 수 있습니다
 
-```text
+```kotlin
 class MyActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
