@@ -6,7 +6,7 @@ description: >-
 
 # ViewModel
 
-ViewModel 클래스는 UI 관련 데이터를 라이프 사이클 인식 방식으로 저장 및 관리하도록 설계되었습니다. ViewModel 클래스를 사용하면 화면 회전과 같은 구성 변경 후에도 데이터를 유지할 수 있습니다.
+ViewModel 클래스는 라이프 사이클 인식 하여  UI 관련 데이터를 저장 및 관리하도록 설계되었습니다. ViewModel 클래스를 사용하면 화면 회전과 같은 구성 변경 후에도 데이터를 유지할 수 있습니다.
 
 `참고` [ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel.html)을 Android 프로젝트로 임포트하려면 [라이프 사이클 릴리스 노트](https://developer.android.com/jetpack/androidx/releases/lifecycle#declaring_dependencies)에서 디펜던시을 선언하는 방법을 참고 합니다.
 
