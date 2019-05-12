@@ -8,7 +8,7 @@ description: >-
 
 ViewModel 클래스는 라이프 사이클 인식 하여  UI 관련 데이터를 저장 및 관리하도록 설계되었습니다. ViewModel 클래스를 사용하면 화면 회전과 같은 구성 변경 후에도 데이터를 유지할 수 있습니다.
 
-`참고` [ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel.html)을 Android 프로젝트로 임포트하려면 [라이프 사이클 릴리스 노트](https://developer.android.com/jetpack/androidx/releases/lifecycle#declaring_dependencies)에서 디펜던시을 선언하는 방법을 참고 합니다.
+`참고` [ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel.html)을 Android 프로젝트로 임포트하려면 [라이프 사이클 릴리스 노트](https://developer.android.com/jetpack/androidx/releases/lifecycle#declaring_dependencies)에서 디펜던시 선언 방법을 참고 합니다.
 
 Android 프레임워크는 액티비티 및 프래그먼트와 같은 UI 컨트롤러의 라이프 사이클을 관리합니다. 안드로이드 프레임워크는 특정 사용자 동작 또는 제어권 밖에 있는 디바이스 이벤트에 대한 응답으로 UI 컨트롤러를 파괴하거나 다시 만들 것인지 결정할 수 있습니다.
 
