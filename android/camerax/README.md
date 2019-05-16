@@ -24,9 +24,9 @@ CameraX는 다음과 같은 방법으로 개발자 경험을 향상시킵니다.
 
 CameraX는 디바이스마다 다른 점을 관리하는데 시간을 낭비하지 않습니다. 대신 유즈케이스를 도입하여 필요한 작업에만 집중합니다. 몇 가지 기본적인 유즈케이스가 있습니다.
 
-* [미리보기](https://developer.android.com/training/camerax/preview): 디스플레이에서 이미지 얻기
-* [이미지 분석:](https://developer.android.com/training/camerax/analyze) MLKit과 같은 알고리즘에 데이터를 전달하기 위한 버퍼에 대한 완전한 접근.
-* [이미지 캡처](https://developer.android.com/training/camerax/analyze): 고품질 이미지 저장
+* [미리보기](https://tech.burt.pe.kr/android/camerax/preview): 디스플레이에서 이미지 얻기
+* [이미지 분석](https://tech.burt.pe.kr/android/camerax/analyze-image): MLKit과 같은 알고리즘에 데이터를 전달하기 위한 버퍼에 대한 완전한 접근.
+* [이미지 캡처](https://tech.burt.pe.kr/android/camerax/take-photo): 고품질 이미지 저장
 
 이러한 유즈케이스는 Android 5.0\(API레벨 21\) 이상을 실행하는 모든 디바이스에서 작동하므로 대부분의 디바이스에서 동일한 코드를 사용할 수 있습니다.
 
@@ -52,12 +52,12 @@ CameraX에는 [확장](https://developer.android.com/training/camerax/vendor-ext
 
 ## 문서 <a id="toc_5"></a>
 
-* [CameraX 아키텍처](https://developer.android.com/training/camerax/architecture)
-* [구성 옵션](https://developer.android.com/training/camerax/configuration)
-* [미리보기 구현](https://developer.android.com/training/camerax/preview)
-* [이미지 분석](https://developer.android.com/training/camerax/analyze)
-* [이미지 캡처](https://developer.android.com/training/camerax/take-photo)
-* [벤더 확장 기능](https://developer.android.com/training/camerax/vendor-extensions)
+* [CameraX 아키텍처](https://tech.burt.pe.kr/android/camerax/camerax-architecture)
+* [구성 옵션](https://tech.burt.pe.kr/android/camerax/configuration)
+* [미리보기 구현](https://tech.burt.pe.kr/android/camerax/preview)
+* [이미지 분석](https://tech.burt.pe.kr/android/camerax/analyze-image)
+* [이미지 캡처](https://tech.burt.pe.kr/android/camerax/take-photo)
+* [제조 업체 확장 기능](https://tech.burt.pe.kr/android/camerax/vendor-extensions)
 
 ## 추가 자료 <a id="toc_6"></a>
 

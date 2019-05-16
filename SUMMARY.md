@@ -19,7 +19,7 @@
   * [미리보기](android/camerax/preview.md)
   * [이미지 분석](android/camerax/analyze-image.md)
   * [이미지 캡처](android/camerax/take-photo.md)
-  * [공급 업체 확장 기능](android/camerax/vendor-extensions.md)
+  * [제조 업체 확장 기능](android/camerax/vendor-extensions.md)
 * [View](android/view/README.md)
   * [커스텀뷰의 크기 정하기](android/view/measure-android-custom-view.md)
 * [JNI 튜토리얼](android/jni-tutorial/README.md)
