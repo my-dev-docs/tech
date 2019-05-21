@@ -95,3 +95,8 @@
   * [13장. 깊이버퍼](opengl/opengl-es-tutorial-for-ios/chapter-13.md)
   * [14장. 원근투영](opengl/opengl-es-tutorial-for-ios/chapter-14.md)
 
+## ENV
+
+* [oh-my-zsh](env/oh-my-zsh/README.md)
+  * [특정 git 폴더에서 zsh 이 느려질 때](env/oh-my-zsh/zsh-slow-on-git-folder.md)
+
