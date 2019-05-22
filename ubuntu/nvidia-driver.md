@@ -38,13 +38,13 @@ sudo apt-get update
 
 apt-get 으로 설치하지 않고 소프트웨어 업데이트를 사용해서 설치함. Step4 까지 진행하면 PPA에서 최신 드라이버 목록을 소프트웨어 업데이트 패널에서 보여준다.
 
-![](../../../.gitbook/assets/software_update.png)
+![](../.gitbook/assets/software_update.png)
 
 ### Step 6 **–** Reboot
 
 재부팅 후 `nvidia-settings` 를 실행한다.
 
-![](../../../.gitbook/assets/nvidia_shot.png)
+![](../.gitbook/assets/nvidia_shot.png)
 
 위처럼 패널이 나오면 nvidia 드라이버 설치가 완료된 것이다. 
 

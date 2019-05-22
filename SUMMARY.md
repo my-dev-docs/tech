@@ -102,7 +102,7 @@
 
 ## Ubuntu
 
-* [설치](ubuntu/install/README.md)
-  * [UEFI USB](ubuntu/install/uefi-usb/README.md)
-    * [nvidia driver](ubuntu/install/uefi-usb/nvidia-driver.md)
+* [UEFI USB](ubuntu/uefi-usb.md)
+* [nvidia driver](ubuntu/nvidia-driver.md)
+* [/dev/kvm on Android Studio](ubuntu/dev-kvm-permission.md)
 
