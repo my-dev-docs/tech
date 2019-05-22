@@ -10,5 +10,21 @@ Mac에서 UEFI USB를 만들 때 우분투 공식 가이드에 있는 Etcher 보
 
 {% embed url="https://unetbootin.github.io/" %}
 
+## USB 포멧
 
+```text
+diskutil eraseDisk FAT32 [diskname] [/dev/disk#]
+```
+
+### 디스크 목록 얻기
+
+```text
+diskutil list
+```
+
+### 예제
+
+```text
+diskutil eraseDisk FAT32 USB /dev/disk3
+```
 
