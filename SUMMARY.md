@@ -100,3 +100,7 @@
 * [oh-my-zsh](env/oh-my-zsh/README.md)
   * [특정 git 폴더에서 zsh 이 느려질 때](env/oh-my-zsh/zsh-slow-on-git-folder.md)
 
+## Ubuntu
+
+* [UEFI USB](ubuntu/uefi-usb.md)
+
