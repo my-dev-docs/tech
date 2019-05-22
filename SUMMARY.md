@@ -102,5 +102,7 @@
 
 ## Ubuntu
 
-* [UEFI USB](ubuntu/uefi-usb.md)
+* [설치](ubuntu/install/README.md)
+  * [UEFI USB](ubuntu/install/uefi-usb/README.md)
+    * [nvidia driver](ubuntu/install/uefi-usb/nvidia-driver.md)
 
