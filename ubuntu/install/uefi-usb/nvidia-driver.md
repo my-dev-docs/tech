@@ -28,19 +28,19 @@ $ sudo apt-get perge nvidia*
 $ sudo add-apt-repository ppa:graphics-drivers
 ```
 
-### **Step 4- Prepare the system for the installation**
+### **Step 4 – Prepare the system for the installation**
 
 ```text
 sudo apt-get update
 ```
 
-### Step 5 - Install Driver
+### Step 5 **–** Install Driver
 
 apt-get 으로 설치하지 않고 소프트웨어 업데이트를 사용해서 설치함. Step4 까지 진행하면 PPA에서 최신 드라이버 목록을 소프트웨어 업데이트 패널에서 보여준다.
 
 ![](../../../.gitbook/assets/software_update.png)
 
-### Step 6 - Reboot
+### Step 6 **–** Reboot
 
 재부팅 후 `nvidia-settings` 를 실행한다.
 
