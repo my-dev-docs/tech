@@ -105,4 +105,5 @@
 * [UEFI USB](ubuntu/uefi-usb.md)
 * [nvidia driver](ubuntu/nvidia-driver.md)
 * [/dev/kvm on Android Studio](ubuntu/dev-kvm-permission.md)
+* [install oracle-jdk8](ubuntu/install-oracle-jdk8.md)
 
