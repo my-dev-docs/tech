@@ -39,5 +39,10 @@ Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
 Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 ```
 
+JDK가 포함하고 있는 다른 실행파일도 필요할 수 있으므로 PATH에 적용한다.
 
+```bash
+export JDK8_HOME="/usr/lib/jvm/jdk1.8.0"
+export PATH=$JDK8_HOME/bin:$PATH
+```
 
